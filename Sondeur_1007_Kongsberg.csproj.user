@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\WorkspaceProgrammation\C++\Sondeur_1007_Kongsberg\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="WindowConfig\DetectionMethodConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowConfig\MaximumRangeConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowConfig\MaximumResolutionConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowConfig\MinimumGapWidthConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowConfig\MinimumPingConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowConfig\MinimumValidReturnConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowConfig\NMEAScaleConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowConfig\OutputFormatConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowConfig\R0MaximumRangeConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowConfig\R0MinimumRangeConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowConfig\RangeWindowConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowConfig\SoundVelocityConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowConfig\TransmitPowerConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowConfig\TresholdConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowConfig\TVGAutoGainConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowConfig\TVGConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowConfig\XmitGateConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowConfig\XmitPulseConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig\DetectionMethodConfig.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig\MaximumRangeConfig.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig\MaximumResolutionConfig.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig\MinimumGapWidthConfig.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig\MinimumPingConfig.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig\MinimumValidReturnConfig.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig\NMEAScaleConfig.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig\OutputFormatConfig.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig\R0MaximumRangeConfig.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig\R0MinimumRangeConfig.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig\RangeWindowConfig.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig\SoundVelocityConfig.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig\TransmitPowerConfig.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig\TresholdConfig.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig\TVGAutoGainConfig.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig\TVGConfig.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig\XmitGateConfig.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig\XmitPulseConfig.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+﻿<Window x:Class="Sondeur_1007_Kongsberg.WindowConfig.OutputFormatConfig"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sondeur_1007_Kongsberg.WindowConfig"
+        mc:Ignorable="d"
+        Title="Output format config" Height="400" Width="300" Closing="Window_Closing">
+    <Grid Background="#FF3C3C3C">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="380"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label Content="Output format config" FontSize="24" Foreground="Wheat" HorizontalAlignment="Center" FontWeight="Bold" Margin="0,0,0,333"/>
+        <Button x:Name="buttonSTDSend" Content="STD" Margin="64,52,64,284" FontSize="24" Click="buttonSTDSend_Click" ></Button>
+        <Button x:Name="buttonNMEASend" Content="NMEA" Margin="64,119,64,217" FontSize="24" Click="buttonNMEA_Click" ></Button>
+        <Button x:Name="buttonSamplesSend" Content="Samples" Margin="64,190,64,146" FontSize="24" Click="buttonSampleSend_Click" ></Button>
+        <Button x:Name="buttonUsecSend" Content="Usec" Margin="64,258,64,78" FontSize="24" Click="buttonUsecSend_Click" ></Button>
+
+        <Button x:Name="buttonAskConfig" Content="Ask Config ?" FontSize="24" Margin="64,330,64,6" Click="buttonAskConfig_Click"></Button>
+    </Grid>
+</Window>
+

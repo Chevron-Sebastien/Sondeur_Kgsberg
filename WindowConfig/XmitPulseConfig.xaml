@@ -1,0 +1,25 @@
+﻿<Window x:Class="Sondeur_1007_Kongsberg.WindowConfig.XmitPulseConfig"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sondeur_1007_Kongsberg.WindowConfig"
+        mc:Ignorable="d"
+        Title="Xmit Pulse Config" Height="400" Width="300">
+    <Grid Background="#FF3C3C3C">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="380"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label Content="Xmit pulse width" FontSize="24" Foreground="Wheat" HorizontalAlignment="Center" FontWeight="Bold" Margin="0,0,0,333"/>
+
+        <TextBlock x:Name="Description" TextWrapping="Wrap" FontSize="22" Foreground="Wheat" Margin="10,52,10,179"><Run Language="fr-fr" Text="Xmit pulse width"/><LineBreak/><Run Language="fr-fr" Text="From 0 to 9, with pulse width = (x+1)*50µs"/></TextBlock>
+        <TextBox x:Name="textBoxValue" Margin="36,201,36,131" FontSize="24"/>
+        <Button x:Name="buttonXmitPulseSend" Content="DC Offset" Margin="64,254,64,82" FontSize="24" Click="buttonXmitPulseSend_Click" ></Button>
+
+        <Button x:Name="buttonAskConfig" Content="Ask Config ?" FontSize="24" Margin="64,330,64,6" Click="buttonAskConfig_Click"></Button>
+    </Grid>
+</Window>

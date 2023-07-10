@@ -1,0 +1,24 @@
+﻿<Window x:Class="Sondeur_1007_Kongsberg.WindowConfig.TresholdConfig"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sondeur_1007_Kongsberg.WindowConfig"
+        mc:Ignorable="d"
+        Title="Treshold config" Height="400" Width="300" Closing="Window_Closing">
+    <Grid Background="#FF3C3C3C">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="380"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label Content="Treshold" FontSize="24" Foreground="Wheat" HorizontalAlignment="Center" FontWeight="Bold" Margin="0,0,0,333"/>
+        <Button x:Name="buttonTresholdSend" Content="Send" Margin="64,275,64,61" FontSize="24" Click="buttonTresholdSend_Click" ></Button>
+        <TextBlock x:Name="Description" TextWrapping="Wrap" FontSize="22" Foreground="Wheat" Margin="10,52,150,179"><Run Text="0"/><Run Language="fr-fr" Text=" "/><Run Text="-"/><Run Language="fr-fr" Text=" "/><Run Text="Auto"/><LineBreak/><Run Text="1"/><Run Language="fr-fr" Text=" "/><Run Text="-"/><Run Language="fr-fr" Text=" "/><Run Text="10%                     2"/><Run Language="fr-fr" Text=" "/><Run Text="-"/><Run Language="fr-fr" Text=" 20%"/><LineBreak/><Run Language="fr-fr" Text=" "/><Run Text=" "/><Run Text="   "/><Run Text="...                     8"/><Run Language="fr-fr" Text=" "/><Run Text="-"/><Run Language="fr-fr" Text=" "/><Run Text="80%"/></TextBlock>
+        <TextBox x:Name="textBoxValueTreshold" Margin="36,206,36,126" FontSize="24"></TextBox>
+
+        <Button x:Name="buttonAskConfig" Content="Ask Config ?" FontSize="24" Margin="64,330,64,6" Click="buttonAskConfig_Click" ></Button>
+    </Grid>
+</Window>

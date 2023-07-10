@@ -1,0 +1,24 @@
+﻿<Window x:Class="Sondeur_1007_Kongsberg.WindowConfig.SoundVelocityConfig"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sondeur_1007_Kongsberg.WindowConfig"
+        mc:Ignorable="d"
+        Title="Sound velocity Config" Height="400" Width="300">
+    <Grid Background="#FF3C3C3C">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="380"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label Content="labelSoundVelocityConfig" FontSize="24" Foreground="Wheat" HorizontalAlignment="Center" FontWeight="Bold" Margin="0,0,0,333"/>
+        <Button x:Name="buttonSoundVelocitySend" Content="Send" Margin="64,243,64,93" FontSize="24" Click="buttonSoundVelocitySend_Click" ></Button>
+        <TextBlock x:Name="Description" TextWrapping="Wrap" FontSize="22" Foreground="Wheat" Margin="10,52,10,179"><Run Language="fr-fr" Text="Sound velocity"/><LineBreak/><Run Language="fr-fr" Text="From 1400 to 1600 m/s"/><LineBreak/><Run Language="fr-fr"/><LineBreak/><Run Language="fr-fr" Text="Format XXXX - ex 0340"/></TextBlock>
+        <TextBox x:Name="textBoxValue" Margin="36,190,36,142" FontSize="24"></TextBox>
+        <Button x:Name="buttonAskConfig" Content="Ask Config ?" FontSize="24" Margin="64,330,64,6" Click="buttonAskConfig_Click"/>
+
+    </Grid>
+</Window>

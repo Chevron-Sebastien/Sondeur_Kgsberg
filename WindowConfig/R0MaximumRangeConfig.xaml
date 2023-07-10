@@ -1,0 +1,25 @@
+﻿<Window x:Class="Sondeur_1007_Kongsberg.WindowConfig.R0MaximumRangeConfig"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sondeur_1007_Kongsberg.WindowConfig"
+        mc:Ignorable="d"
+        Title="R0 Maximum range config" Height="400" Width="300" Closing="Window_Closing">
+    <Grid Background="#FF3C3C3C">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="380"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label Content="Maximum Range config" FontSize="24" Foreground="Wheat" HorizontalAlignment="Center" FontWeight="Bold" Margin="0,0,0,333"/>
+
+        <TextBlock x:Name="Description" TextWrapping="Wrap" FontSize="22" Foreground="Wheat" Margin="10,52,10,179"><Run Text="Custom 'R0' maximum range in 10cm units"/><LineBreak/><Run Language="fr-fr" Text="From 0 to 5000"/><LineBreak/><Run Language="fr-fr"/><LineBreak/><Run Language="fr-fr" Text="Format XXXX - ex : 0200"/></TextBlock>
+        <TextBox x:Name="textBoxValue" Margin="36,206,36,126" FontSize="24"></TextBox>
+        <Button x:Name="buttonMaximumRangeConfig" Content="Send" Margin="64,259,64,77" FontSize="24" Click="buttonTresholdSend_Click" ></Button>
+
+        <Button x:Name="buttonAskConfig" Content="Ask Config ?" FontSize="24" Margin="64,330,64,6" Click="buttonAskConfig_Click"></Button>
+    </Grid>
+</Window>
